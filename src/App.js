@@ -11,6 +11,13 @@ import BindingExample from './Components/Events/BindingExample'
 import EventsExample from './Components/Events/EventsExample'
 
 import ParentClass from './Components/Events/ParentClass'
+import DestructureObjects from './Components/Day4/DestructureObjects'
+import ConditionalRendering from './Components/Day4/ConditionalRendering'
+
+import ArrayRendering from './Components/Day4/ArrayRendering'
+import ArrayRendering2 from './Components/Day4/ArrayRendering2'
+
+import StylesExample from './Components/Day4/StylesExample/StylesExample'
 function App() {
   return (
     <div className="App">
@@ -22,7 +29,15 @@ function App() {
         {/* 3rd session */}
         {/* <BindingExample/> */}
         {/* <EventsExample/> */}
-        <ParentClass/>
+        {/* <ParentClass/> */}
+
+        {/* Day 4 */}
+        {/* <DestructureObjects/> */}
+        {/* <ConditionalRendering/> */}
+
+        {/* <ArrayRendering/> */}
+        {/* <ArrayRendering2/> */}
+        <StylesExample/>
       </div>
     
   );
