@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import './App.css';
 
 import FirstComponent from './FirstComponent'
@@ -18,6 +18,11 @@ import ArrayRendering from './Components/Day4/ArrayRendering'
 import ArrayRendering2 from './Components/Day4/ArrayRendering2'
 
 import StylesExample from './Components/Day4/StylesExample/StylesExample'
+
+import LifeCycleComponents from './Components/Day5/LifeCycleComponents'
+
+import DemoComponent from './Components/Day5/DemoComponent'
+import ReactPureComponent from './Components/Day5/ReactPureComponent'
 function App() {
   return (
     <div className="App">
@@ -37,7 +42,10 @@ function App() {
 
         {/* <ArrayRendering/> */}
         {/* <ArrayRendering2/> */}
-        <StylesExample/>
+        {/* <StylesExample/> */}
+        {/* <LifeCycleComponents/> */}
+        {/* <DemoComponent/> */}
+        <ReactPureComponent/>
       </div>
     
   );
