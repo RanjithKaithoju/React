@@ -23,6 +23,12 @@ import LifeCycleComponents from './Components/Day5/LifeCycleComponents'
 
 import DemoComponent from './Components/Day5/DemoComponent'
 import ReactPureComponent from './Components/Day5/ReactPureComponent'
+
+import BasicComponent from './Components/Day6/BasicComponent'
+
+import NewComponent from './Components/Day6/NewComponent'
+
+import ReactRouterExample from './Components/Day6/Routing/ReactRouterExample'
 function App() {
   return (
     <div className="App">
@@ -45,7 +51,12 @@ function App() {
         {/* <StylesExample/> */}
         {/* <LifeCycleComponents/> */}
         {/* <DemoComponent/> */}
-        <ReactPureComponent/>
+        {/* <ReactPureComponent/> */}
+     
+        {/* <BasicComponent/> */}
+
+        {/* <NewComponent/> */}
+        <ReactRouterExample/>
       </div>
     
   );
