@@ -10,7 +10,7 @@ import User from './User'
 // install react-router-dom ( npm install react-router-dom --save)
 export class ReactRouterExample extends Component {
     state={
-        logged:true,
+        logged:false,
         name:'ranjith'
     }
     render() {
@@ -19,7 +19,8 @@ export class ReactRouterExample extends Component {
                 <BrowserRouter>
                     <Header/>
                         <Route path="/" exact component={Login}></Route>
-                        <Route path="/home" exact component={() => {return this.state.logged ? <Home name={this.state.name}/> : <Login/>}}></Route>
+                        {/* <Route path="/home" exact component={() => {return this.state.logged ? <Home name={this.state.name}/> : <Login/>}}></Route> */}
+                        <Route path="/home" exact component={()=> {return <Home name={this.state.name} logged={this.state.logged}/> }} />
                         <Route path="/user/:username" exact component={User}/>
                     <Footer/>
                 </BrowserRouter>

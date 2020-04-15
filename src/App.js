@@ -29,6 +29,9 @@ import BasicComponent from './Components/Day6/BasicComponent'
 import NewComponent from './Components/Day6/NewComponent'
 
 import ReactRouterExample from './Components/Day6/Routing/ReactRouterExample'
+import ReactRef from './Components/Day7/ReactRef'
+
+import ContextExample from './Components/Day7/ContextExample/ContextExample'
 function App() {
   return (
     <div className="App">
@@ -56,7 +59,10 @@ function App() {
         {/* <BasicComponent/> */}
 
         {/* <NewComponent/> */}
-        <ReactRouterExample/>
+        {/* <ReactRouterExample/> */}
+
+        {/* <ReactRef/> */}
+        <ContextExample/>
       </div>
     
   );
