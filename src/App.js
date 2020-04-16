@@ -32,6 +32,11 @@ import ReactRouterExample from './Components/Day6/Routing/ReactRouterExample'
 import ReactRef from './Components/Day7/ReactRef'
 
 import ContextExample from './Components/Day7/ContextExample/ContextExample'
+import ListUsers from './Components/Day8/FetchingDataWithAxios/ListUsers'
+import PostUser from './Components/Day8/FetchingDataWithAxios/PostUser'
+
+import ClassBasedComponentStateExample from './Components/Day8/ClassBasedComponentStateExample'
+import FunctionalBasedComponentStateExample from './Components/Day8/FunctionalBasedComponentStateExample'
 function App() {
   return (
     <div className="App">
@@ -62,7 +67,12 @@ function App() {
         {/* <ReactRouterExample/> */}
 
         {/* <ReactRef/> */}
-        <ContextExample/>
+        {/* <ContextExample/> */}
+
+        {/* <ListUsers/> */}
+        {/* <PostUser/> */}
+        {/* <ClassBasedComponentStateExample/> */}
+        <FunctionalBasedComponentStateExample/>
       </div>
     
   );
