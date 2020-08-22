@@ -2,4 +2,4 @@
 
 Added examples which I taught in the session.
 
-Start from App.js
+Start from src/App.js
